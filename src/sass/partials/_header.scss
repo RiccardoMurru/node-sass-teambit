@@ -1,0 +1,33 @@
+// Header
+
+header {
+    position: fixed;
+    width: 1170px;
+    padding: 20px 0 20px;
+    background: #fff;
+    border-bottom: 1px solid $text-color;
+    font-size: 14px;
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    a {
+        text-decoration: none;
+        margin-left: 30px;
+        color: $text-color;
+    }
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    .button {
+        color: $color-blue;
+    }
+    img {
+        width: 20px;
+        margin-right: 10px;
+    }
+}
